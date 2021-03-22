@@ -1,0 +1,42 @@
+header {
+  background-color: #030a18;
+  min-height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff3ae;
+  padding: 10px;
+}
+
+button {
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+  background-color: #fff3ae;
+  border: 0;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 0;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button.active {
+  border: 2px solid rgb(255, 115, 0);
+  outline: -webkit-focus-ring-color auto 1px;
+}
+
+button.active:hover {
+  cursor: default;
+}
+
+svg {
+  vertical-align: text-bottom;
+}

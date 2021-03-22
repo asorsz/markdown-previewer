@@ -1,0 +1,7 @@
+#preview {
+  overflow-y: scroll;
+}
+
+#preview > * {
+  margin-bottom: 15px;
+}
